@@ -22,7 +22,9 @@
     "test:relevance": "node test/relevance.test.js",
     "test:eval": "node test/eval.test.js",
     "test:health": "node test/health.test.js",
-    "test:api": "node test/api.test.js"
+    "test:api": "node test/api.test.js",
+    "people": "node src/bin/people.js",
+    "test:people": "node test/peopleSearch.test.js"
   },
   "dependencies": {
     "@google/genai": "^2.23.0",

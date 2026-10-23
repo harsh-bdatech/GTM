@@ -124,6 +124,18 @@ export const LINKASSIST_ICP = {
     max: 50,
   },
 
+  // Short role words used in people searches and the fit check.
+  search_roles: ["Founder", "Co-Founder", "CEO", "Owner", "Consultant", "Coach"],
+
+  // Buyer phrases: a recent post using one of these is a buying signal.
+  signal_phrases: [
+    "personal branding",
+    "LinkedIn growth",
+    "inbound leads",
+    "client acquisition",
+    "thought leadership",
+  ],
+
   discovery_terms: [
     "B2B SaaS",
     "software",
